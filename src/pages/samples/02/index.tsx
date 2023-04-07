@@ -5,7 +5,6 @@ export default function Sample02() {
     return (
         <>
             <Header />
-
         </>
     )
 }
