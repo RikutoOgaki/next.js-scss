@@ -8,8 +8,9 @@ export function Header() {
                 <nav>
                     <ul className={style.ul}>
                         <Link href={'/'}><li>logo</li></Link>
-                        <Link href={'/'}><li>商品</li></Link>
-                        <Link href={'/'}><li>お問い合わせ</li></Link>
+                        <Link href={'/'}><li>about</li></Link>
+                        <Link href={'/'}><li>skill</li></Link>
+                        <Link href={'/'}><li>works</li></Link>
                     </ul>
                 </nav>
             </header>
