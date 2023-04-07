@@ -1,0 +1,39 @@
+.Namewrap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: .5;
+
+    h1 {
+        font-size: 6.2rem;
+    }
+
+    // p:nth-child(1) {
+    //     font-size: 4.8rem;
+    // }
+
+    // p:nth-child(2) {
+    //     font-size: 4.8rem;
+    // }
+
+    p {
+        font-size: 3.2rem;
+    }
+
+    .iconbox {
+        width: 10%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 4rem;
+
+        .icon {
+            color: #000;
+            font-size: 3.2rem;
+        }
+
+    }
+}
