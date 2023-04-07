@@ -1,15 +1,15 @@
 import Link from 'next/link'
-import './header,module.scss'
+import style from './header.module.scss'
 
 export function Header() {
     return (
         <>
-            <header className='headerbox'>
+            <header className={style.headerbox}>
                 <nav>
-                    <ul>
-                        <Link href={'/'}><li></li></Link>
-                        <Link href={'/'}><li></li></Link>
-                        <Link href={'/'}><li></li></Link>
+                    <ul className={style.ul}>
+                        <Link href={'/'}><li>logo</li></Link>
+                        <Link href={'/'}><li>商品</li></Link>
+                        <Link href={'/'}><li>お問い合わせ</li></Link>
                     </ul>
                 </nav>
             </header>
