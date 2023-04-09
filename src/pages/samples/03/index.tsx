@@ -1,12 +1,11 @@
-import { motion } from 'framer-motion'
-import { Box, Text, Flex } from '@chakra-ui/react'
+import { useState, Suspense } from 'react'
+import { MotionConfig, motion, useMotionValue } from 'framer-motion'
+import { trasition } from './setting'
 
 export default function Sample03() {
     return (
         <>
-            <Box>
 
-            </Box>
         </>
     )
 }
