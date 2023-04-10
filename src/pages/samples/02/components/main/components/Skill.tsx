@@ -71,36 +71,35 @@ export function Skill() {
                 <div className={style.skillbox}>
                     <span>-Skill-</span>
                     <h2>What I use & am learning</h2>
-                    <div>
-                        <h3>Main technology used</h3>
-                        <div className={style.iconbox}>
-                            {iconArray.useicon.map((item, idx) =>
-                                <div key={idx} >
-                                    <Icon as={item} />
-                                </div>
-                            )}
-                        </div>
+                    <h3>Main technology used</h3>
+                    <div className={style.iconbox}>
+                        {iconArray.useicon.map((item, idx) =>
+                            <div key={idx} >
+                                <Icon as={item} />
+                            </div>
+                        )}
                     </div>
-                    <div>
-                        <h3>Technology you are learning (want to learn)</h3>
-                        <div className={style.iconbox}>
-                            {iconArray.studyicon.map((item, idx) =>
-                                <div key={idx}>
-                                    <Icon as={item} />
-                                </div>
-                            )}
-                        </div>
+                    <h3>Technology you are learning (want to learn)</h3>
+                    <div className={style.iconbox}>
+                        {iconArray.studyicon.map((item, idx) =>
+                            <div key={idx}>
+                                <Icon as={item} />
+                            </div>
+                        )}
                     </div>
-                    <div>
-                        <h3>Tools used</h3>
-                        <div className={style.iconbox}>
-                            {iconArray.usingicon.map((item, idx) =>
-                                <div key={idx}>
-                                    <Icon as={item} />
-                                </div>
-                            )}
-                        </div>
+                    <h3>Tools used</h3>
+                    <div className={style.iconbox}>
+                        {iconArray.usingicon.map((item, idx) =>
+                            <div key={idx}>
+                                <Icon as={item} />
+                            </div>
+                        )}
                     </div>
+                    <p>
+                        私が一人でデザインから開発まで行うなら、デザインはFigmaやIllustratorでおこない<br />
+                        コーディングはReact(next.js) + TypeScript + chakra-UIで行うと思います。<br />
+                        バックエンドはPostgreSQLで認証周りなどが必要であれば行うと思います。<br />
+                    </p>
                 </div>
             </div>
         </>
