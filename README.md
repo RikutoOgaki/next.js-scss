@@ -14,7 +14,7 @@ pnpm dev
 
 ## Sass/Scssの導入
 
-下記の内容を入力する
+下記の内容をターミナルに入力する
 
 ```bash
 npm install --save-dev sass
