@@ -3,11 +3,14 @@
     height: 5vh;
 
     .navbox {
+        width: 100%;
+        height: 5vh;
         display: flex;
         list-style: none;
         line-height: 3.7;
         margin: 0;
         padding: 0;
+        position: fixed;
 
         &>li {
             width: 25%;
