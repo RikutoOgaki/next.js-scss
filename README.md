@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project
 
 ## Getting Started
 
-First, run the development server:
+最初にローカルを立ち上げるとき:
 
 ```bash
 npm run dev
@@ -11,5 +11,15 @@ yarn dev
 # or
 pnpm dev
 ```
+
+## Sass/Scssの導入
+
+下記の内容を入力する
+
+```bash
+npm install --save-dev sass
+```
+
+
 
 
