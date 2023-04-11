@@ -20,6 +20,4 @@ pnpm dev
 npm install --save-dev sass
 ```
 
-
-
-
+入力できたらあとはファイルを作るときの拡張子をscssにしscssの書き方で書いていく
