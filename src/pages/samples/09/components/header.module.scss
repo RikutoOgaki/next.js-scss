@@ -4,6 +4,58 @@
 
     .navbox {
         display: flex;
-        justify-content: space-around;
+        list-style: none;
+        line-height: 3.7;
+        margin: 0;
+        padding: 0;
+
+        &>li {
+            width: 25%;
+            height: 5vh;
+            text-align: center;
+            font-size: 1.8rem;
+            background-color: #5e3500;
+            color: #fff;
+
+            a {
+                display: block;
+                text-decoration: none;
+                color: #fff;
+            }
+
+            & a:hover {
+
+                background-color: #93744c;
+            }
+
+            &:hover ul {
+                display: block;
+            }
+        }
+
+        ul {
+            width: 100%;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: none;
+
+
+            &>li {
+                width: 100%;
+                background-color: #5e3500;
+
+                a {
+                    display: block;
+                    text-decoration: none;
+                    color: #fff;
+                }
+
+                & a:hover {
+                    background-color: #a2835b;
+                }
+
+            }
+        }
     }
 }
