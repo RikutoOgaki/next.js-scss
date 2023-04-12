@@ -4,7 +4,7 @@ import Link from 'next/link'
 export function Header() {
     return (
         <>
-            <header>
+            <header className={style.head}>
                 <div className={style.navbox}>
                     <div className={style.logo}>logo</div>
                     <div className={style.navChildbox}>
