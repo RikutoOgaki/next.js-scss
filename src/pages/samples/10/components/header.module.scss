@@ -39,11 +39,17 @@
                 width: 5rem;
                 height: 5rem;
                 background-color: tomato;
+                display: flex;
+                align-items: flex-end;
 
                 span {
                     border: 1px solid #fff;
                 }
             }
+        }
+
+        .listbar {
+            display: none;
         }
     }
 }
