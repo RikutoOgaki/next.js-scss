@@ -23,6 +23,7 @@
     "eslint-config-next": "13.3.0",
     "framer-motion": "^10.11.2",
     "framer-motion-3d": "^10.11.2",
+    "math-random": "^2.0.1",
     "next": "13.3.0",
     "primeicons": "^6.0.1",
     "primereact": "^9.2.2",
