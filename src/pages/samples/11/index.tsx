@@ -8,7 +8,9 @@ export default function Sample11() {
         <>
             <div className={style.wrap}>
                 <Header />
-                <MainBijual />
+                <main className={style.main}>
+                    <MainBijual />
+                </main>
             </div>
         </>
     )
