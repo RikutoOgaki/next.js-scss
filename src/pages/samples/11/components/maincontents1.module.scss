@@ -9,12 +9,26 @@
         align-items: center;
 
         .imgbox {
-            background: linear-gradient(blue #fff);
+            background: linear-gradient(#0000bc, #5d00b5);
         }
 
         .textbox {
+            width: 60rem;
+            height: 40rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            background: linear-gradient(#5d00b5, #0000bc);
 
-            background-color: aqua;
+            h2 {
+                font-size: 2.4rem;
+            }
+
+            p {
+                font-size: 1.6rem;
+            }
         }
     }
 }
