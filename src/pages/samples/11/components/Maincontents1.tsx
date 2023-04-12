@@ -12,6 +12,7 @@ export function Maincontents1() {
                     </div>
                     <div className={style.textbox}>
                         <h2>強者のみが今ここに集う。</h2>
+                        <span></span>
                         <p>
                             みんな大好きSOUND VOLTEXで世界を勝ち取れ!<br />
                             みんな大好きSOUND VOLTEXで世界を勝ち取れ!<br />

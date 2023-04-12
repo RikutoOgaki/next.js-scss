@@ -4,33 +4,43 @@
     margin-top: 30rem;
 
     .secbox {
+        width: 80%;
+        margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: center;
 
         .imgbox {
-            background: linear-gradient(#0000bc, #5d00b5);
+            margin-right: 3rem;
+            margin-bottom: 2rem;
         }
 
         .textbox {
-            width: 60rem;
+            width: 70rem;
             height: 40rem;
-            margin-top: 33rem;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
             color: #fff;
-            background: linear-gradient(#5d00b5, #0000bc);
+            // background: linear-gradient(#5d00b5, #0000bc);
 
             h2 {
-                font-size: 2.4rem;
+                font-size: 4.8rem;
                 margin-left: 4rem;
+            }
+
+            span {
+                width: 20rem;
+                border: 1px solid #fff;
+                margin-left: 4rem;
+                margin-bottom: 3rem;
             }
 
             p {
                 font-size: 1.6rem;
                 margin-left: 4rem;
+                line-height: 2;
             }
         }
     }
