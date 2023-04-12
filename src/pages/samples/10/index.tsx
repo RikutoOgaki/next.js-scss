@@ -1,4 +1,4 @@
-import { Box, Flex, Text } from '@chakra-ui/react'
+import style from './index.module.scss'
 
 export default function Sample10() {
     return (
