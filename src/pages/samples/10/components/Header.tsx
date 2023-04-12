@@ -13,7 +13,7 @@ export function Header() {
                         <span></span>
                     </div>
                 </div>
-                <ul>
+                <ul className={style.listbar}>
                     <li><Link href={'/'}>logo</Link></li>
                     <li><Link href={'/'}>商品</Link></li>
                     <li><Link href={'/'}>お問い合わせ</Link></li>
