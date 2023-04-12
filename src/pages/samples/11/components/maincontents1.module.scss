@@ -15,19 +15,22 @@
         .textbox {
             width: 60rem;
             height: 40rem;
+            margin-top: 33rem;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start;
             color: #fff;
             background: linear-gradient(#5d00b5, #0000bc);
 
             h2 {
                 font-size: 2.4rem;
+                margin-left: 4rem;
             }
 
             p {
                 font-size: 1.6rem;
+                margin-left: 4rem;
             }
         }
     }

@@ -14,6 +14,9 @@ export function Maincontents1() {
                         <h2>強者のみが今ここに集う。</h2>
                         <p>
                             みんな大好きSOUND VOLTEXで世界を勝ち取れ!<br />
+                            みんな大好きSOUND VOLTEXで世界を勝ち取れ!<br />
+                            みんな大好きSOUND VOLTEXで世界を勝ち取れ!<br />
+                            みんな大好きSOUND VOLTEXで世界を勝ち取れ!<br />
                         </p>
                     </div>
                 </div>
