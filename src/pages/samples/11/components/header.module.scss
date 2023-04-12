@@ -1,0 +1,42 @@
+.head {
+    width: 100%;
+    height: 5vh;
+
+    .headbox {
+        display: flex;
+
+        .spanbox {
+            width: 50%;
+            padding: 2rem 2rem 2rem 10rem;
+
+            span {
+                font-size: 1.6rem;
+                color: #fff;
+
+
+            }
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            width: 50%;
+            margin: 0;
+            padding: 0;
+            padding: 0 4rem;
+
+            li {
+                font-size: 1.8rem;
+                line-height: 3;
+                text-align: center;
+
+                a {
+                    font-size: 1.4rem;
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
