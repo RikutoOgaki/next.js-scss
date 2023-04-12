@@ -40,10 +40,15 @@
                 height: 5rem;
                 background-color: tomato;
                 display: flex;
-                align-items: flex-end;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 1.3rem;
 
                 span {
-                    border: 1px solid #fff;
+                    width: 4rem;
+                    height: 4rem;
+                    border-bottom: 1px solid #fff;
                 }
             }
         }
