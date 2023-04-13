@@ -4,6 +4,7 @@ import { motion, sync, useCycle } from "framer-motion";
 import { useDimentions } from "./use-dimention";
 import { MenuToggle } from "./MenuToggle";
 import { Navigation } from './Navigation'
+import style from './style.module.scss'
 
 const sidebar = {
     open: (height = 1000) => ({
@@ -36,6 +37,7 @@ export const Example = () => {
             animate={isOpen ? "open" : "closed"}
             custom={height}
             ref={containerRef}
+            className={style.nav}
         >
             <motion.div className="background" variants={sidebar} />
             <MenuToggle toggle={() => toggleOpen()} />

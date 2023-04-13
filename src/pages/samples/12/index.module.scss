@@ -1,5 +1,11 @@
 .wrap {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(blue skyblue);
+    background: linear-gradient(blue, skyblue);
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
