@@ -38,8 +38,8 @@ export const Example = () => {
             ref={containerRef}
         >
             <motion.div className="background" variants={sidebar} />
-            <Navigation />
             <MenuToggle toggle={() => toggleOpen()} />
+            <Navigation />
         </motion.nav>
     );
 };
