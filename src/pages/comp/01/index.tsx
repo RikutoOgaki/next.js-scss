@@ -9,7 +9,7 @@ export default function Sample01() {
                 justifyContent={'center'}
                 alignItems={'center'}
                 bg={'skyblue'}>
-                <Text fontSize={'5xl'}>aaaaaa</Text>
+                <Text fontSize={{ base: '5xl', lg: '8xl' }}>aaaaaa</Text>
             </Flex >
         </>
     )
