@@ -21,7 +21,7 @@
     "@types/three": "^0.150.1",
     "eslint": "8.37.0",
     "eslint-config-next": "13.3.0",
-    "framer-motion": "^10.11.2",
+    "framer-motion": "^10.11.6",
     "framer-motion-3d": "^10.11.2",
     "math-random": "^2.0.1",
     "next": "13.3.0",

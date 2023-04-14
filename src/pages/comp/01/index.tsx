@@ -1,4 +1,4 @@
-import { Box, Flex, Text, Input } from '@chakra-ui/react'
+import { Box, Flex, Text, Input, Stack } from '@chakra-ui/react'
 
 export default function Sample01() {
     return (
@@ -9,8 +9,8 @@ export default function Sample01() {
                 justifyContent={'center'}
                 alignItems={'center'}
                 bg={'skyblue'}>
-
-            </Flex>
+                <Text fontSize={'5xl'}>aaaaaa</Text>
+            </Flex >
         </>
     )
 }
