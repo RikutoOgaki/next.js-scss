@@ -1,12 +1,14 @@
 import { Box, Flex, Text, Icon } from '@chakra-ui/react'
 import { SiGithub, SiInstagram, SiTwitter } from 'react-icons/si'
+import Link from 'next/link'
 
 export function Name() {
 
     const iconarr = [
-        SiGithub,
-        SiInstagram,
-        SiTwitter
+
+        { icon: SiGithub, link: 'https://github.com/RikutoOgaki' },
+        { icon: SiInstagram, link: 'https://www.instagram.com/rikut0_0531/' },
+        { icon: SiTwitter, link: 'https://twitter.com/Rikuto_Ogaki' }
     ]
 
     return (
@@ -26,11 +28,11 @@ export function Name() {
                 >Web Front Enjiner</Text>
                 <Flex width={'20%'} justifyContent={'space-around'}>
                     {iconarr.map((item, idx) =>
-                        <Text key={idx}
-                            fontSize={{ base: '3xl', lg: '5xl' }}
-                        >
-                            <Icon as={item} />
-                        </Text>
+                        <Link href={item.link} key={idx}>
+                            <Text fontSize={{ base: '3xl', lg: '5xl' }}>
+                                <Icon as={item.icon} />
+                            </Text>
+                        </Link>
                     )}
                 </Flex>
             </Flex>
