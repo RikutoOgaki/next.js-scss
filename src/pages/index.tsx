@@ -18,6 +18,9 @@ export default function Index() {
           <Link href={'/samples/11'}><li>Sample11</li></Link>
           <Link href={'/samples/12'}><li>Sample12</li></Link>
         </ul>
+        <ul>
+          <Link href={'./comp'}><li>SampleComponents</li></Link>
+        </ul>
       </div >
     </>
   )
