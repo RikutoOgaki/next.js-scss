@@ -4,12 +4,12 @@ export default function Sample01() {
     return (
         <>
             <Flex
-                w={'100%'}
-                h={'100vh'}
                 justifyContent={'center'}
                 alignItems={'center'}
+                w={'full'}
+                h={'100vh'}
                 bg={'skyblue'}>
-                <Text fontSize={{ base: '5xl', lg: '8xl' }}>aaaaaa</Text>
+                <Text fontSize={{ base: '2xl', md: '4xl' }}>Hello World</Text>
             </Flex >
         </>
     )
