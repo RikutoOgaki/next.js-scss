@@ -9,7 +9,7 @@ export default function Sample01() {
                 w={'full'}
                 h={'100vh'}
                 bg={'skyblue'}>
-                <Text fontSize={{ base: '2xl', md: '4xl' }}>Hello World</Text>
+                <Text fontSize={{ base: '5xl', md: '9xl' }}>Hello World</Text>
             </Flex >
         </>
     )
