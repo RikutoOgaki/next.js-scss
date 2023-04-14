@@ -12,6 +12,7 @@ export default function Sample02() {
                 <Name />
                 <main>
                     <Profil />
+                    <Skill />
                 </main>
             </Box>
         </>

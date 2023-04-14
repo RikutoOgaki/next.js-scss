@@ -18,6 +18,7 @@ export function Profil() {
                     marginLeft={{ base: '5rem', lg: '20rem' }}>
                     <Text
                         fontSize={{ base: '3xl', lg: '5xl' }}
+                        opacity={'.5'}
                     >-01 About me-</Text>
                     <Text
                         fontSize={{ base: '2xl', lg: '3xl' }}
