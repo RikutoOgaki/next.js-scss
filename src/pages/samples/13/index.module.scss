@@ -1,0 +1,64 @@
+.box {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: aqua;
+    opacity: .5;
+    transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1) 0.001s transform;
+    position: fixed;
+    top: -1.25rem;
+    left: -1.25rem;
+    pointer-events: none;
+    border-radius: 50%;
+}
+
+.box1 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: aqua;
+    opacity: .5;
+    transition: .9s cubic-bezier(0.075, 0.82, 0.165, 1) 0.001s transform;
+    position: fixed;
+    top: -1.25rem;
+    left: -1.25rem;
+    pointer-events: none;
+    border-radius: 50%;
+}
+
+.box2 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: aqua;
+    opacity: .5;
+    transition: 1.2s cubic-bezier(0.075, 0.82, 0.165, 1) 0.001s transform;
+    position: fixed;
+    top: -1.25rem;
+    left: -1.25rem;
+    pointer-events: none;
+    border-radius: 50%;
+}
+
+.box3 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: aqua;
+    opacity: .5;
+    transition: 1.7s cubic-bezier(0.075, 0.82, 0.165, 1) 0.001s transform;
+    position: fixed;
+    top: -1.25rem;
+    left: -1.25rem;
+    pointer-events: none;
+    border-radius: 50%;
+}
+
+.box4 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: aqua;
+    opacity: .5;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1) 0.001s transform;
+    position: fixed;
+    top: -1.25rem;
+    left: -1.25rem;
+    pointer-events: none;
+    border-radius: 50%;
+}
