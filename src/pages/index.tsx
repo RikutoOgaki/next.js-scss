@@ -21,6 +21,9 @@ export default function Index() {
         <ul>
           <Link href={'./comp'}><li>SampleComponents</li></Link>
         </ul>
+        <ul>
+          <Link href={'./practice'}><li>Practioce</li></Link>
+        </ul>
       </div >
     </>
   )
